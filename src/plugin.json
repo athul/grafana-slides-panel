@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Slides",
+  "id": "athul-slides-panel",
+  "info": {
+    "keywords": [
+      "panel",
+      "slides",
+      "presentation",
+      "pdf"
+    ],
+    "description": "Present a PDF slide deck inside a Grafana panel",
+    "author": {
+      "name": "Athul Cyriac Ajay",
+      "url": "https://github.com/athul"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/athul/grafana-slides-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/athul/grafana-slides-panel/blob/main/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=13.0.0",
+    "plugins": []
+  },
+  "skipDataQuery": true
+}

@@ -1,0 +1,16 @@
+{
+  "editable": true,
+  "panels": [
+    {
+      "gridPos": { "h": 20, "w": 24, "x": 0, "y": 0 },
+      "id": 1,
+      "options": { "pdfUrl": "public/slides/deck.pdf", "showPageNumber": true },
+      "title": "",
+      "transparent": true,
+      "type": "athul-slides-panel"
+    }
+  ],
+  "schemaVersion": 39,
+  "title": "Slides",
+  "uid": "slides"
+}
